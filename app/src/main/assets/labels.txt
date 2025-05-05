@@ -1,0 +1,3 @@
+Potato___Early_blight : Remove infected leaves and avoid overhead irrigation. Apply fungicides such as chlorothalonil or mancozeb. Ensure proper crop rotation and spacing.
+Potato___Late_blight : Use fungicides with active ingredients like metalaxyl or copper. Remove infected plants immediately. Avoid wet foliage and ensure proper air circulation.
+Potato___healthy : No treatment needed. Maintain regular care and watch for early signs of disease. Ensure good drainage and avoid overwatering.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plant Disease Detection</string>
+    <string name="capture">Capture</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="point_camera">Point camera at a plant leaf</string>
+    
+    <!-- Home Screen -->
+    <string name="welcome_to">Welcome to</string>
+    <string name="the_plant">the Plant</string>
+    <string name="world">World</string>
+    <string name="tagline">Discover the power of AI in plant disease detection. Upload, analyze, and protect your plants with just a click.</string>
+    <string name="grow_with_us">Grow With Us</string>
+    <string name="plant_your_roots">Plant Your Roots</string>
+    
+    <!-- Firebase -->
+    <string name="default_web_client_id">123456789000-abcdefghijklmnopqrstuvwxyz012345.apps.googleusercontent.com</string>
+    
+    <!-- Signup Screen -->
+    <string name="signup_title">Sign Up</string>
+    <string name="create_account">Create your account</string>
+    <string name="join_detect">Join us to detect plant diseases</string>
+    <string name="full_name_hint">Enter your full name</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="confirm_password_hint">Confirm your password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="or_continue_with">or continue with</string>
+    <string name="google_signup">Sign up with Google</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="login_link">Login</string>
+    <string name="back">Back</string>
+</resources> 

@@ -1,0 +1,2 @@
+rootProject.name = "Plant Guard AI"
+include ':app' 

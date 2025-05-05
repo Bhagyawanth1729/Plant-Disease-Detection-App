@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "123456789000",
+    "project_id": "plant-guard-ai",
+    "storage_bucket": "plant-guard-ai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123456789000:android:1234567890abcdef",
+        "android_client_info": {
+          "package_name": "com.example.plantguardai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123456789000-abcdefghijklmnopqrstuvwxyz012345.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plantguardai",
+            "certificate_hash": "9D716141E1F7FBC711C7789B007DC7F38E6BBC1F"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1234567890-abcdefghijklmnopqrstuvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ]
+} 

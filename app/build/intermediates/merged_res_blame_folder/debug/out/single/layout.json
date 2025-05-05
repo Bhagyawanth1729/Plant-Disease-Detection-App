@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_admin_panel.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_admin_panel.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_detection.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_detection.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_admin.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/item_user.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_signup.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_camera.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-mergeDebugResources-41:/layout/activity_home.xml",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_home.xml"
+    }
+]

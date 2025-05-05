@@ -1,0 +1,2 @@
+com.example.plant_disease_detection.test:style/WhiteBackgroundTheme = 0x7f010001
+com.example.plant_disease_detection.test:style/WhiteBackgroundDialogTheme = 0x7f010000

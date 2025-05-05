@@ -1,0 +1,269 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.plant_disease_detection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Camera permission -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:6:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:7:5-60
+14-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:7:19-57
+15
+16    <!-- Storage permissions -->
+17    <uses-permission
+17-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:10:5-11:38
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:10:22-78
+19        android:maxSdkVersion="28" />
+19-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:11:9-35
+20    <uses-permission
+20-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:12:5-13:38
+21        android:name="android.permission.READ_EXTERNAL_STORAGE"
+21-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:12:22-77
+22        android:maxSdkVersion="32" />
+22-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:13:9-35
+23    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+23-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:14:5-76
+23-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:14:22-73
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:16:5-67
+24-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:16:22-64
+25
+26    <queries>
+26-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:22:5-26:15
+27        <intent>
+27-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:23:9-25:18
+28            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+28-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:24:13-86
+28-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:24:21-83
+29        </intent>
+30    </queries>
+31
+32    <permission
+32-->[androidx.core:core:1.12.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\b633ac57b149f7061d43ac7049406620\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.plant_disease_detection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.12.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\b633ac57b149f7061d43ac7049406620\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.12.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\b633ac57b149f7061d43ac7049406620\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.plant_disease_detection.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.12.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\b633ac57b149f7061d43ac7049406620\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.12.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\b633ac57b149f7061d43ac7049406620\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+37
+38    <application
+38-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:18:5-61:19
+39        android:name="com.example.plant_disease_detection.PlantGuardApplication"
+39-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:19:9-46
+40        android:allowBackup="true"
+40-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:20:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.12.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\b633ac57b149f7061d43ac7049406620\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:21:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:22:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:23:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:24:9-35
+48        android:testOnly="true"
+49        android:theme="@style/Theme.PlantDiseaseDetection" >
+49-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:25:9-59
+50        <activity
+50-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:27:9-34:20
+51            android:name="com.example.plant_disease_detection.HomeActivity"
+51-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:28:13-41
+52            android:exported="true" >
+52-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:29:13-36
+53            <intent-filter>
+53-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:30:13-33:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:31:17-69
+54-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:31:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:32:17-77
+56-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:32:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:36:9-38:40
+60            android:name="com.example.plant_disease_detection.MainActivity"
+60-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:37:13-41
+61            android:exported="false" />
+61-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:38:13-37
+62        <activity
+62-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:40:9-43:78
+63            android:name="com.example.plant_disease_detection.CameraActivity"
+63-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:41:13-43
+64            android:exported="false"
+64-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:42:13-37
+65            android:theme="@style/Theme.PlantDiseaseDetection.NoActionBar" />
+65-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:43:13-75
+66        <activity
+66-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:45:9-47:40
+67            android:name="com.example.plant_disease_detection.DetectionActivity"
+67-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:46:13-46
+68            android:exported="false" />
+68-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:47:13-37
+69        <activity
+69-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:49:9-51:40
+70            android:name="com.example.plant_disease_detection.LoginActivity"
+70-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:50:13-42
+71            android:exported="false" />
+71-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:51:13-37
+72        <activity
+72-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:53:9-55:40
+73            android:name="com.example.plant_disease_detection.SignupActivity"
+73-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:54:13-43
+74            android:exported="false" />
+74-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:55:13-37
+75        <activity
+75-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:57:9-59:40
+76            android:name="com.example.plant_disease_detection.AdminActivity"
+76-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:58:13-42
+77            android:exported="false" />
+77-->C:\Users\bhagyawanth\OneDrive\Desktop\plant_dis_detect_ai-main\app\src\main\AndroidManifest.xml:59:13-37
+78
+79        <uses-library
+79-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:29:9-31:40
+80            android:name="androidx.camera.extensions.impl"
+80-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:30:13-59
+81            android:required="false" />
+81-->[androidx.camera:camera-extensions:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\eeab97986ff1e13ae8043502f70ffb40\transformed\jetified-camera-extensions-1.3.1\AndroidManifest.xml:31:13-37
+82
+83        <service
+83-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+84            android:name="androidx.camera.core.impl.MetadataHolderService"
+84-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+85            android:enabled="false"
+85-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+86            android:exported="false" >
+86-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+87            <meta-data
+87-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+88                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+88-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+89                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+89-->[androidx.camera:camera-camera2:1.3.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\752ab0c8fcfc6a344444f0c9bd21b416\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+90        </service>
+91
+92        <provider
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+93            android:name="androidx.startup.InitializationProvider"
+93-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+94            android:authorities="com.example.plant_disease_detection.androidx-startup"
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+95            android:exported="false" >
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+96            <meta-data
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+97                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+98                android:value="androidx.startup" />
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\974523aa43b3e2ac3630a6dc8636d74e\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+99            <meta-data
+99-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\281e5405b6dd242531186fa3209ee1ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\281e5405b6dd242531186fa3209ee1ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+101                android:value="androidx.startup" />
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\281e5405b6dd242531186fa3209ee1ea\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+104                android:value="androidx.startup" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+105        </provider>
+106
+107        <activity
+107-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:23:9-27:75
+108            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+108-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:24:13-93
+109            android:excludeFromRecents="true"
+109-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:25:13-46
+110            android:exported="false"
+110-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:26:13-37
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+111-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:27:13-72
+112        <!--
+113            Service handling Google Sign-In user revocation. For apps that do not integrate with
+114            Google Sign-In, this service will never be started.
+115        -->
+116        <service
+116-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:33:9-37:51
+117            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+117-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:34:13-89
+118            android:exported="true"
+118-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:35:13-36
+119            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+119-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:36:13-107
+120            android:visibleToInstantApps="true" />
+120-->[com.google.android.gms:play-services-auth:21.0.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\bfb9355bf638d1860521fa9592a56980\transformed\jetified-play-services-auth-21.0.0\AndroidManifest.xml:37:13-48
+121
+122        <activity
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\f5a26c035d3530dacb674b47f9e0af2c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+123            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+123-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\f5a26c035d3530dacb674b47f9e0af2c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+124            android:exported="false"
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\f5a26c035d3530dacb674b47f9e0af2c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\f5a26c035d3530dacb674b47f9e0af2c\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+126
+127        <meta-data
+127-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\a06fcd384b64ab13c0656f04ce1b2fd5\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+128            android:name="com.google.android.gms.version"
+128-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\a06fcd384b64ab13c0656f04ce1b2fd5\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+129            android:value="@integer/google_play_services_version" />
+129-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\a06fcd384b64ab13c0656f04ce1b2fd5\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\bhagyawanth\.gradle\caches\8.13\transforms\9b37afd626f466672185de8e4ecc2e34\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>

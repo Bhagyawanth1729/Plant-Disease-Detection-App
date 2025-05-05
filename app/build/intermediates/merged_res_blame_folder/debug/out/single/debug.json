@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_person.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_person.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_back.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/animator_button_state_list_anim.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/animator/button_state_list_anim.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_login_bcg.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/login_bcg.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_home.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/anim_fade_out.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_lock.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_blight_plant.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/blight_plant.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_camera.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_camera.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_admin.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_admin_panel.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_admin_panel.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_item_user.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_settings.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_fungal_plant.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/fungal_plant.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_detection.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_detection.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/anim_fade_in.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_community.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_community.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_main.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_history.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_email.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_login.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_bcg.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/bcg.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_google.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_google.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_plant_illustration.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/plant_illustration.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_rounded_background.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/rounded_background.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_home.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/layout_activity_signup.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_healthy_plant.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/healthy_plant.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ma_bcg.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ma_bcg.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/color_bottom_nav_colors.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/color/bottom_nav_colors.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.plant_disease_detection.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.plant_disease_detection.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
