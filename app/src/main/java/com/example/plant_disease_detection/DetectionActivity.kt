@@ -1,4 +1,5 @@
 package com.example.plant_disease_detection
+
 import android.content.res.AssetManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -9,10 +10,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.plant_disease_detection.databinding.ActivityDetectionBinding
 import org.tensorflow.lite.Interpreter
-import java.io.BufferedReader
-import java.io.FileInputStream
-import java.io.IOException
-import java.io.InputStreamReader
+import java.io.*
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 import java.nio.MappedByteBuffer
@@ -22,10 +20,10 @@ class DetectionActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDetectionBinding
     private lateinit var tflite: Interpreter
     private lateinit var labels: List<String>
-    private val inputSize = 256// Your model's input size
+    private val inputSize = 256 // Your model's input size
     private val pixelSize = 3 // RGB
     private val modelPath = "model.tflite"
-    private val labelPath = "labels.txt"
+    private val labelPath = "label.txt"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,12 +35,12 @@ class DetectionActivity : AppCompatActivity() {
             tflite = Interpreter(loadModelFile(assets))
             labels = loadLabelList(assets)
 
-            // Print labels to log for debugging
+            // Debug: Log all labels
             for ((index, label) in labels.withIndex()) {
                 Log.d("Labels", "Label $index: $label")
             }
 
-            // OPTIONAL: Display all labels in the UI for testing
+            // OPTIONAL: Display all labels for debugging
             binding.resultText.text = "All Labels:\n" + labels.joinToString("\n")
             binding.resultText.visibility = View.VISIBLE
 
@@ -52,7 +50,7 @@ class DetectionActivity : AppCompatActivity() {
             return
         }
 
-        // Get the image path or URI from intent
+        // Load image from intent
         val imagePath = intent.getStringExtra(EXTRA_IMAGE_PATH)
         if (imagePath != null) {
             val bitmap = if (imagePath.startsWith("content://")) {
@@ -90,12 +88,17 @@ class DetectionActivity : AppCompatActivity() {
                 val results = output[0]
                 val maxIndex = results.indices.maxByOrNull { results[it] } ?: -1
                 val confidence = results[maxIndex] * 100
-                val diseaseName = if (maxIndex in labels.indices) labels[maxIndex] else "Unknown"
+                val diseaseName = if (confidence < 90) "Unknown" else labels.getOrElse(maxIndex) { "Unknown" }
 
                 runOnUiThread {
                     binding.progressBar.visibility = View.GONE
                     binding.detectionStatus.text = "Analysis Complete"
-                    binding.resultText.text = "Detection Result: $diseaseName\n\nConfidence: ${"%.2f".format(confidence)}%"
+                    val resultText = if (diseaseName == "Unknown") {
+                        " \uD83E\uDEB4 Detection Result: Unknown\n\nConfidence is too low (< 90%) to identify the disease."
+                    } else {
+                        "\uD83E\uDEB4 Detection Result: $diseaseName\n\n✅Confidence: ${"%.2f".format(confidence)}%"
+                    }
+                    binding.resultText.text = resultText
                     binding.resultText.visibility = View.VISIBLE
                 }
             } catch (e: Exception) {
@@ -156,3 +159,4 @@ class DetectionActivity : AppCompatActivity() {
         const val EXTRA_IMAGE_PATH = "image_path"
     }
 }
+
