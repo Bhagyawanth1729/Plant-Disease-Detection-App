@@ -39,5 +39,6 @@ This project is an Android-based mobile application that uses a Convolutional Ne
 
 ## 📂 App Structure
 
+[VI_sem_thesis.pdf](https://github.com/user-attachments/files/20128194/VI_sem_thesis.pdf)
 
-[VI_sem_thesis.pdf](https://github.com/user-attachments/files/20051115/VI_sem_thesis.pdf)
+
