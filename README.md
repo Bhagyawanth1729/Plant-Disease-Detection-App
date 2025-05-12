@@ -41,4 +41,5 @@ This project is an Android-based mobile application that uses a Convolutional Ne
 
 [VI_sem_thesis.pdf](https://github.com/user-attachments/files/20128194/VI_sem_thesis.pdf)
 
-
+## Flow_chart
+![Flow Chart](https://github.com/user-attachments/assets/1a274edb-3b48-4758-bb25-f140e9707982)
